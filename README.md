@@ -53,11 +53,19 @@ Follow these guidelines to use my CSS. These can all be completed in the first U
 # Resources:
 Attempt using only these resources and no previously used code
 MySQL Docs: https://dev.mysql.com/
+
 MySql NPM Docs: https://www.npmjs.com/package/mysql
+
 Node: https://nodejs.org/en/docs/
+
 Express: https://expressjs.com/
+
 BodyParser: https://www.npmjs.com/package/body-parser
+
 React: https://reactjs.org/
+
 jQuery: https://api.jquery.com/
+
 StackOverflow: https://stackoverflow.com
+
 *Some Docs May not have been listed. Please use only official and npm docs.
