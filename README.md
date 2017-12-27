@@ -44,9 +44,9 @@ MORE HINTS: You can call function to get all the items from the database or you 
 
 # For CSS (NOT Required):
 Follow these guidelines to use my CSS. These can all be completed in the first User Story
-1. <ul> should have an id of ‘list’
-2. <li> should have a className of ‘list-item’
-3. The the todoText should be inside of a <div> with className of ‘todo-text’
+1. `<ul>` should have an id of ‘list’
+2. `<li>` should have a className of ‘list-item’
+3. The the todoText should be inside of a `<div>` with className of ‘todo-text’
 
 
 
