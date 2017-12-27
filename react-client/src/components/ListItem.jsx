@@ -1,9 +1,3 @@
 import React from 'react';
 
-const ListItem = (props) => (
-  <div>
-    { props.item.description }
-  </div>
-)
-
-export default ListItem;
+// There is an image of a trashcan at './delete_icon.png' for implementing the delete function.

@@ -1,0 +1,49 @@
+body {
+  background: #0a4a67;
+  color: white;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+button {
+  margin: 5px;
+}
+
+#list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: auto;
+  width: 75%
+}
+
+.list-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 75%;
+}
+
+.todo-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: left;
+  background: white;
+  overflow: scroll;
+  color: black;
+  padding: 5px;
+  padding-left: 10px;
+  margin: 5px;
+  border-radius: 10px;
+}

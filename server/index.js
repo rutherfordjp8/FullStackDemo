@@ -1,29 +1,24 @@
-var express = require('express');
-var bodyParser = require('body-parser');
-// UNCOMMENT THE DATABASE YOU'D LIKE TO USE
-// var items = require('../database-mysql');
-// var items = require('../database-mongo');
 
-var app = express();
 
-// UNCOMMENT FOR REACT
-// app.use(express.static(__dirname + '/../react-client/dist'));
+// DELETE ALL OF THIS FILE. It will make you more comfortable to reference only DOCS to complete this project.
 
-// UNCOMMENT FOR ANGULAR
-// app.use(express.static(__dirname + '/../angular-client'));
-// app.use(express.static(__dirname + '/../node_modules'));
 
-app.get('/items', function (req, res) {
-  items.selectAll(function(err, data) {
-    if(err) {
-      res.sendStatus(500);
-    } else {
-      res.json(data);
-    }
-  });
-});
+const express = require('express');
+var bodyParser = require('body-parser')
+var db = require('../database-mysql/index.js')
 
-app.listen(3000, function() {
-  console.log('listening on port 3000!');
-});
+const app = express();
 
+
+
+// This is middleware that adds a .body to request and response parameters.
+// Research it more in the npm docs for body-parser
+app.use(bodyParser.urlencoded({ extended: false }));
+
+// This loads the page index.html when you go to the webpage
+app.use(express.static(__dirname + '/../react-client/dist'));
+
+// This is what actually starts the node server. Where 3000 is the port number you want to use.
+app.listen(3000, () =>
+    console.log('Example app listening on port 3000!')
+)
