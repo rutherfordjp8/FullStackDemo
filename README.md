@@ -1,4 +1,4 @@
-#Introduction
+# Introduction
 
 You will be doing a to-do list app. You can add to the to-do list and it will store in the database. Meaning you can refresh and the data will still be there.
 
@@ -8,7 +8,7 @@ Note that I did not implement the delete functionality of the TO-DO list in the 
 
 If you watch the video I do not follow my own rules and refer back to my already complete project, please know that I do not typically do this. As I'm stubborn and know I can debug the issue's on my own. I only made the exception because of a time constraint. It's not good habit, so please do not follow it.
 
-#First Steps
+# First Steps
 
 I have left the server and database but I suggest going into the files deleting everything in them and do them from scratch only useing the docs. This will make you more comfortable navigating docs and not make you feel like you need to refer back to previous projects in the future.
 
@@ -22,7 +22,7 @@ RUN `npm install`
 Hint: Don’t forget to use ReactDOM to render the component to our div with the id of ‘root’. -- getElementById(‘root’);
 Follow User Stories.
 
-#User Stories
+# User Stories
 
 1. As a user I should be able to see my created to-do list items.
 2. As a user I should be able to create new to-do list items.
@@ -42,7 +42,7 @@ MORE HINTS: You can call function to get all the items from the database or you 
 
 
 
-#For CSS (NOT Required):
+# For CSS (NOT Required):
 Follow these guidelines to use my CSS. These can all be completed in the first User Story
 1. <ul> should have an id of ‘list’
 2. <li> should have a className of ‘list-item’
@@ -50,7 +50,7 @@ Follow these guidelines to use my CSS. These can all be completed in the first U
 
 
 
-#Resources:
+# Resources:
 Attempt using only these resources and no previously used code
 MySQL Docs: https://dev.mysql.com/
 MySql NPM Docs: https://www.npmjs.com/package/mysql
